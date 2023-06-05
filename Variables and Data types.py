@@ -1,10 +1,9 @@
-a= 6
-b=4
-print("the sum of a and b is=",a+b,type(a))
 
-a1="Manpreet"
-b1="Singh"
-print("the combination of a1 and b1 is=", a1 + b1,type(b1))
+# varible is like a container thats holds value 
 
-c=complex(5,3)
+a = 12345678       # a contain value or data
+b = 11   # b also conatain value or data
+#but both variable value or data type are not same 
+print("the sum of a and b is = ",a+b,type(a))
+c=complex(4,6)
 print (c)
