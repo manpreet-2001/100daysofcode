@@ -1,7 +1,9 @@
-a=10
-b=5
+# calculator using user input
 
-print("Addition of a and b is =",a+b)
-print("Subtraction of a and b is =",a-b)
-print("Multiplication of a and b is =",a*b)
-print("Division of a and b is =",a/b)
+print("Calculator")
+a=int(input("Enter First number = "))  #change str to int
+b=int(input("Enter Second number = ")) #change str to int
+print("the sum of both number = ", a+b)
+print("the subtract of both number = ", a-b)
+print("the multiplication of both number = ", a*b)
+print("the division of both number = ", a/b)
